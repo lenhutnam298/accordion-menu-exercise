@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="https://kit.fontawesome.com/c6bd225951.js" crossorigin="anonymous"></script>
+    <title>Accordion Menu</title>
+</head>
+<body>
+    <div class="middle">
+        <div class="menu">
+            <li class="item" id='profile'>
+                <a href="#profile" class="btn"><i class="fas fa-user-circle"></i> Profile</a>
+                <div class="smenu">
+                    <a href="#" class="Posts">Posts</a>
+                    <a href="#" class="Picture">Picture</a>
+                </div>
+            </li>
+
+            <li class="item" id="messages">
+                <a href="#messages" class="btn"><i class="fas fa-envelope"></i></i> Messages</a>
+                <div class="smenu">
+                    <a href="#" class="Posts">New</a>
+                    <a href="#" class="Picture">Sent</a>
+                    <a href="#" class="Picture">Draf</a>
+                    <a href="#" class="Picture">Spam</a>
+                </div>
+            </li>
+
+            <li class="item" id="settings">
+                <a href="#settings" class="btn"><i class="fas fa-cogs"></i></i> Settings</a>
+                <div class="smenu">
+                    <a href="#" class="Posts">Password</a>
+                    <a href="#" class="Picture">Language</a>
+                    <a href="#" class="Picture">Help</a>
+                </div>
+            </li>
+
+            <li class="item">
+                <a href="#" class="btn"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </li>
+        </div>
+    </div>
+</body>
+<footer class="footer">
+    <p>&copy;Le Nhut Nam <script> document.write(new Date().getFullYear()); </script></p>
+</footer>
+</html>
